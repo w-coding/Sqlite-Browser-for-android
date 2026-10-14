@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="dialog_bg" tools:ignore="MissingDefaultResource">@color/dark_dialog_bg</color>
+    <color name="popup_bg" tools:ignore="MissingDefaultResource">@color/dark_popup_bg</color>
+    <color name="tab_bg" tools:ignore="MissingDefaultResource">@color/dark_tab_bg</color>
+    <color name="tab_selected" tools:ignore="MissingDefaultResource">@color/dark_tab_selected</color>
+    <color name="tab_unselected" tools:ignore="MissingDefaultResource">@color/dark_tab_unselected</color>
+    <color name="tab_indicator" tools:ignore="MissingDefaultResource">@color/dark_tab_indicator</color>
+
+
+</resources>

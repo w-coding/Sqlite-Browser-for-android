@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">SQLite Browser</string>
+
+    <string name="menu">القائمة</string>
+    <string name="menu_theme_item">فاتح / داكن</string>
+    <string name="menu_language">اللغة</string>
+    <string name="menu_review">تقييم</string>
+    <string name="menu_share">مشاركة</string>
+    <string name="menu_telegram">قناتنا على تيليجرام</string>
+    <string name="share_text">جرّب SQLite Browser!</string>
+    <string name="share_chooser">مشاركة التطبيق</string>
+    <string name="menu_export_csv">تصدير الجدول إلى CSV</string>
+    <string name="menu_import_csv">استيراد CSV</string>
+    <string name="menu_import_json">استيراد JSON إلى قاعدة البيانات هذه</string>
+    <string name="menu_export_db">تصدير قاعدة البيانات (.db)</string>
+    <string name="menu_theme">المظهر (فاتح / داكن)</string>
+    <string name="theme_title">المظهر</string>
+    <string name="theme_system">افتراضي النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+
+    <string name="cancel">إلغاء</string>
+    <string name="create">إنشاء</string>
+    <string name="delete">حذف</string>
+    <string name="open">فتح</string>
+    <string name="ok">موافق</string>
+    <string name="yes">نعم</string>
+    <string name="close">إغلاق</string>
+    <string name="save">حفظ</string>
+    <string name="insert">إدراج</string>
+    <string name="add">إضافة</string>
+    <string name="toast_done">تم</string>
+    <string name="err_generic">خطأ: %1$s</string>
+
+    <string name="empty_list">لا توجد قواعد بيانات بعد.\nأنشئ قاعدة جديدة أو استورد ملفًا موجودًا.</string>
+    <string name="new_database">قاعدة بيانات جديدة</string>
+    <string name="import_label">استيراد</string>
+    <string name="file_export">تصدير (حفظ نسخة)</string>
+    <string name="delete_db_title">حذف قاعدة البيانات؟</string>
+    <string name="delete_db_msg">سيتم حذف %1$s نهائيًا.</string>
+    <string name="new_db_name_hint">اسم قاعدة البيانات، مثل my_database</string>
+    <string name="new_db_sql_hint">SQL اختياري (إنشاء جداول، إدراج بيانات):</string>
+    <string name="err_enter_name">أدخل اسمًا</string>
+    <string name="err_file_exists">الملف موجود مسبقًا</string>
+    <string name="err_sql">خطأ SQL: %1$s</string>
+    <string name="imported_file">تم استيراد %1$s</string>
+    <string name="import_failed">فشل الاستيراد: %1$s</string>
+    <string name="exported">تم التصدير</string>
+    <string name="export_failed">فشل التصدير: %1$s</string>
+    <string name="import_opt_db">ملف قاعدة بيانات (.db / .sqlite)</string>
+    <string name="import_opt_json">ملف JSON إلى قاعدة بيانات جديدة</string>
+
+    <string name="json_title">تحويل JSON إلى قاعدة بيانات</string>
+    <string name="json_msg">كل مصفوفة من الكائنات تصبح جدولًا، والكائنات المتداخلة تصبح أعمدة إضافية.</string>
+    <string name="json_convert">تحويل</string>
+    <string name="json_done_new">تم إنشاء %1$s: %2$d جدول، %3$d صف</string>
+    <string name="json_nothing">تعذّر إنشاء أي جدول من ملف JSON هذا</string>
+    <string name="json_invalid">ملف JSON غير صالح: %1$s</string>
+    <string name="json_too_big">الملف كبير جدًا للاستيراد</string>
+    <string name="json_imported">تم استيراد %1$d جدول، %2$d صف: %3$s</string>
+
+    <string name="tab_structure">البنية</string>
+    <string name="tab_data">البيانات</string>
+    <string name="tab_sql">SQL</string>
+    <string name="btn_new_table">جدول جديد</string>
+    <string name="btn_alter_table">تعديل الجدول</string>
+    <string name="btn_indexes">الفهارس</string>
+    <string name="btn_drop_table">حذف جدول</string>
+    <string name="search_hint">قيمة البحث / التصفية</string>
+    <string name="go">بحث</string>
+    <string name="btn_add_row">+ صف</string>
+    <string name="prev_arrow">▶</string>
+    <string name="next_arrow">◀</string>
+    <string name="btn_run_sql">▶ تنفيذ SQL</string>
+    <string-array name="filter_ops">
+        <item>يحتوي على</item>
+        <item>يساوي</item>
+        <item>يبدأ بـ</item>
+        <item>ينتهي بـ</item>
+        <item>&gt;</item>
+        <item>&lt;</item>
+        <item>فارغ (NULL)</item>
+        <item>غير فارغ</item>
+    </string-array>
+    <string name="all_columns">كل الأعمدة</string>
+    <string name="no_tables">لا توجد جداول</string>
+    <string name="page_info">%1$d–%2$d من %3$d</string>
+    <string name="suffix_filtered">(مُصفّى)</string>
+    <string name="suffix_readonly">(للقراءة فقط)</string>
+    <string name="schema_empty">قاعدة البيانات فارغة.\nاستخدم \"جدول جديد\" أو تبويب SQL.</string>
+    <string name="err_cannot_open">تعذّر فتح قاعدة البيانات: %1$s</string>
+    <string name="toast_no_table">لم يتم اختيار جدول</string>
+    <string name="read_only_msg">هذا الجدول/العرض للقراءة فقط</string>
+    <string name="sql_status">تم تنفيذ %1$d أمر خلال %2$d مللي ثانية</string>
+    <string name="sql_rows">%1$d صف</string>
+    <string name="sql_limited">(محدود بـ %1$d)</string>
+    <string name="row_title">الصف %1$d</string>
+    <string name="edit_row_title">تعديل الصف (rowid %1$d)</string>
+    <string name="delete_row_title">حذف هذا الصف؟</string>
+    <string name="add_row_title">إضافة صف إلى %1$s</string>
+    <string name="add_row_msg">الحقول الفارغة تستخدم القيمة الافتراضية للعمود. اكتب NULL لقيمة فارغة.</string>
+
+    <string name="csv_exported">تم تصدير %1$d صف</string>
+    <string name="csv_empty">ملف CSV فارغ</string>
+    <string name="csv_title">استيراد CSV إلى جدول</string>
+    <string name="csv_msg">تم العثور على %1$d سطر.\nإذا كان الجدول موجودًا تُضاف الصفوف إليه (تتم مطابقة الأعمدة بالاسم)، وإلا يُنشأ جدول جديد. الخلايا الفارغة تصبح NULL.</string>
+    <string name="csv_header">الصف الأول هو الترويسة (أسماء الأعمدة)</string>
+    <string name="csv_imported">تم استيراد %1$d صف إلى %2$s</string>
+
+    <string name="hint_table_name">اسم الجدول</string>
+    <string name="legend_pk">PK = مفتاح أساسي (INTEGER PK يزداد تلقائيًا)، NN = غير فارغ</string>
+    <string name="btn_add_column_row">+ عمود</string>
+    <string name="hint_column">عمود</string>
+    <string name="use_sql">استخدام SQL</string>
+    <string name="err_table_name">أدخل اسم الجدول</string>
+    <string name="err_no_columns">أضف عمودًا واحدًا على الأقل</string>
+    <string name="drop_which">أي جدول تريد حذفه؟</string>
+    <string name="drop_title">حذف %1$s؟</string>
+    <string name="drop_msg">ستفقد جميع بيانات هذا الجدول.</string>
+    <string name="choose_table">اختر الجدول</string>
+    <string name="act_add_column">إضافة عمود</string>
+    <string name="act_rename_column">إعادة تسمية عمود</string>
+    <string name="act_drop_column">حذف عمود</string>
+    <string name="act_rename_table">إعادة تسمية الجدول</string>
+    <string name="rename_which">أي عمود تريد إعادة تسميته؟</string>
+    <string name="new_name_for">الاسم الجديد لـ %1$s</string>
+    <string name="drop_col_which">أي عمود تريد حذفه؟</string>
+    <string name="drop_col_title">حذف العمود %1$s؟</string>
+    <string name="drop_col_msg">ستفقد بياناته.</string>
+    <string name="new_table_name">اسم الجدول الجديد</string>
+    <string name="add_col_title">إضافة عمود إلى %1$s</string>
+    <string name="hint_col_name">اسم العمود</string>
+    <string name="hint_default">القيمة الافتراضية (اختياري)</string>
+    <string name="new_index">فهرس جديد</string>
+    <string name="no_indexes">لا توجد فهارس بعد.</string>
+    <string name="drop_index">حذف الفهرس</string>
+    <string name="hint_index_cols">الأعمدة مفصولة بفواصل (مثل name, age)</string>
+    <string name="hint_index_name">اسم الفهرس (اختياري)</string>
+    <string name="err_index_cols">أدخل عمودًا واحدًا على الأقل</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <color name="actionbar_bg">@color/dark_actionbar_bg</color>
+    <color name="actionbar_content">@color/dark_actionbar_content</color>
+</resources>

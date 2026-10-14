@@ -1,0 +1,19 @@
+<resources>
+    <style name="Widget.App.ActionBar" parent="Widget.Material3.ActionBar.Solid">
+        <item name="background">@color/actionbar_bg</item>
+        <item name="titleTextStyle">@style/TextAppearance.App.ActionBarTitle</item>
+        <item name="popupTheme">@style/Theme.SqliteBrowser.Popup</item>
+    </style>
+
+    <style name="TextAppearance.App.ActionBarTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">@color/actionbar_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/charis_sil_bold</item>
+        <item name="fontFamily">@font/charis_sil_bold</item>
+    </style>
+
+    <style name="Widget.App.Overflow" parent="Widget.AppCompat.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_overflow</item>
+        <item name="srcCompat">@drawable/ic_overflow</item>
+    </style>
+</resources>

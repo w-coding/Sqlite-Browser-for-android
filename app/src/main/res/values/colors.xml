@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#EFEFEF</color>
+
+
+
+    <!-- ===== ACTION BAR ===== -->
+    <color name="light_actionbar_bg">#153A4C</color>        <!-- bar background -->
+    <color name="light_actionbar_content">#FFFFFF</color>   <!-- title + back/menu icons -->
+    <color name="dark_actionbar_bg">#004680</color>
+    <color name="dark_actionbar_content">#EFEFEF</color>
+
+
+    <!-- ============ LIGHT ============ -->
+    <color name="light_primary">#153A4C</color>               <!-- filled buttons, tab indicator, outlined button text -->
+    <color name="light_on_primary">#EFEFEF</color>            <!-- text on filled buttons -->
+    <color name="light_primary_container">#B2DFDB</color>
+    <color name="light_on_primary_container">#153A4C</color>
+    <color name="light_secondary">#546E7A</color>
+    <color name="light_on_secondary">#EFEFEF</color>
+    <color name="light_secondary_container">#CFD8DC</color>
+    <color name="light_on_secondary_container">#153A4C</color>
+    <color name="light_background">#EFEFEF</color>            <!-- screen background -->
+    <color name="light_on_background">#191C1B</color>
+    <color name="light_surface">#FAFDFC</color>               <!-- action bar, tabs, dialogs -->
+    <color name="light_on_surface">#191C1B</color>
+    <color name="light_outline">#6F7977</color>               <!-- outlined button border -->
+
+    <!-- ============ DARK ============ -->
+    <color name="dark_primary">#FFFFFF</color>
+    <color name="dark_on_primary">#002031</color>
+    <color name="dark_primary_container">#0B3D5C</color>
+    <color name="dark_on_primary_container">#B2DFDB</color>
+    <color name="dark_secondary">#90A4AE</color>
+    <color name="dark_on_secondary">#FFFFFF</color>
+    <color name="dark_secondary_container">#37474F</color>
+    <color name="dark_on_secondary_container">#CFD8DC</color>
+    <color name="dark_background">#002031</color> <!-- screen background -->
+    <color name="dark_on_background">#E0E3E1</color>
+    <color name="dark_surface">#004680</color> <!-- action bar, tabs, dialogs -->
+    <color name="dark_on_surface">#E0E3E1</color>
+    <color name="dark_outline">#004680</color> <!-- outlined button border -->
+
+
+
+
+    <!-- ===== BUTTONS: LIGHT ===== -->
+    <color name="light_button_fill">#153A4C</color>        <!-- filled button background -->
+    <color name="light_button_on_fill">#EFEFEF</color>     <!-- filled button text -->
+    <color name="light_button_stroke">#153A4C</color>      <!-- outlined button border -->
+    <color name="light_button_text">#153A4C</color>        <!-- outlined button text -->
+
+    <!-- ===== BUTTONS: DARK ===== -->
+    <color name="dark_button_fill">#0277BD</color>         <!-- filled button background -->
+    <color name="dark_button_on_fill">#EFEFEF</color>      <!-- filled button text -->
+    <color name="dark_button_stroke">#EFEFEF</color>       <!-- outlined button border (white) -->
+    <color name="dark_button_text">#EFEFEF</color>         <!-- outlined button text (white) -->
+
+
+    <!-- ===== DIALOG / POPUP MENU / TABS: LIGHT ===== -->
+    <color name="light_dialog_bg">#EFEFEF</color>          <!-- AlertDialog background -->
+    <color name="light_popup_bg">#EFEFEF</color>           <!-- overflow menu background -->
+    <color name="light_tab_bg">#FAFDFC</color>             <!-- tab bar background -->
+    <color name="light_tab_selected">#153A4C</color>       <!-- selected tab text -->
+    <color name="light_tab_unselected">#494949</color>     <!-- unselected tab text -->
+    <color name="light_tab_indicator">#153A4C</color>      <!-- line under selected tab -->
+
+    <!-- ===== DIALOG / POPUP MENU / TABS: DARK ===== -->
+    <color name="dark_dialog_bg">#00355A</color>
+    <color name="dark_popup_bg">#00355A</color>
+    <color name="dark_tab_bg">#004680</color>
+    <color name="dark_tab_selected">#EFEFEF</color>
+    <color name="dark_tab_unselected">#8FB4D1</color>
+    <color name="dark_tab_indicator">#EFEFEF</color>
+
+
+    <color name="light_dialog_text">#191C1B</color>
+
+
+    <color name="dark_dialog_text">#EFEFEF</color>
+
+</resources>
+

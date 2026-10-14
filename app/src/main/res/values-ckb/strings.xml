@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">SQLite Browser</string>
+
+    <string name="menu">مینیو</string>
+    <string name="menu_theme_item">ڕووناک / تاریک</string>
+    <string name="menu_language">زمان</string>
+    <string name="menu_review">هەڵسەنگاندن</string>
+    <string name="menu_share">هاوبەشکردن</string>
+    <string name="menu_telegram">تێلێگرامی ئێمە</string>
+    <string name="share_text">SQLite Browser تاقی بکەرەوە!</string>
+    <string name="share_chooser">هاوبەشکردنی بەرنامە</string>
+    <string name="menu_export_csv">هەناردەکردنی خشتە بۆ CSV</string>
+    <string name="menu_import_csv">هاوردەکردنی CSV</string>
+    <string name="menu_import_json">هاوردەکردنی JSON بۆ ئەم بنکەی زانیارییە</string>
+    <string name="menu_export_db">هەناردەکردنی بنکەی زانیاری (.db)</string>
+    <string name="menu_theme">ڕووکار (ڕووناک / تاریک)</string>
+    <string name="theme_title">ڕووکار</string>
+    <string name="theme_system">بنەڕەتی سیستەم</string>
+    <string name="theme_light">ڕووناک</string>
+    <string name="theme_dark">تاریک</string>
+
+    <string name="cancel">هەڵوەشاندنەوە</string>
+    <string name="create">دروستکردن</string>
+    <string name="delete">سڕینەوە</string>
+    <string name="open">کردنەوە</string>
+    <string name="ok">باشە</string>
+    <string name="yes">بەڵێ</string>
+    <string name="close">داخستن</string>
+    <string name="save">پاشەکەوتکردن</string>
+    <string name="insert">زیادکردن</string>
+    <string name="add">زیادکردن</string>
+    <string name="toast_done">تەواو بوو</string>
+    <string name="err_generic">هەڵە: %1$s</string>
+
+    <string name="empty_list">هێشتا هیچ بنکەی زانیارییەک نییە.\nیەکێکی نوێ دروست بکە یان فایلێکی هەبوو هاوردە بکە.</string>
+    <string name="new_database">بنکەی زانیاری نوێ</string>
+    <string name="import_label">هاوردەکردن</string>
+    <string name="file_export">هەناردەکردن (پاشەکەوتکردنی کۆپییەک)</string>
+    <string name="delete_db_title">بنکەی زانیاری بسڕدرێتەوە؟</string>
+    <string name="delete_db_msg">%1$s بە یەکجاری دەسڕدرێتەوە.</string>
+    <string name="new_db_name_hint">ناوی بنکەی زانیاری، وەک my_database</string>
+    <string name="new_db_sql_hint">SQL ی ئارەزوومەندانە (دروستکردنی خشتە، زیادکردنی داتا):</string>
+    <string name="err_enter_name">ناوێک بنووسە</string>
+    <string name="err_file_exists">فایلەکە پێشتر هەیە</string>
+    <string name="err_sql">هەڵەی SQL: %1$s</string>
+    <string name="imported_file">%1$s هاوردە کرا</string>
+    <string name="import_failed">هاوردەکردن سەرنەکەوت: %1$s</string>
+    <string name="exported">هەناردە کرا</string>
+    <string name="export_failed">هەناردەکردن سەرنەکەوت: %1$s</string>
+    <string name="import_opt_db">فایلی بنکەی زانیاری (.db / .sqlite)</string>
+    <string name="import_opt_json">فایلی JSON بۆ بنکەی زانیاری نوێ</string>
+
+    <string name="json_title">گۆڕینی JSON بۆ بنکەی زانیاری</string>
+    <string name="json_msg">هەر ئەرەیەک لە ئۆبجێکتەکان دەبێتە خشتەیەک، ئۆبجێکتی ناو ئۆبجێکتیش دەبنە ستوونی زیادە.</string>
+    <string name="json_convert">گۆڕین</string>
+    <string name="json_done_new">%1$s دروستکرا: %2$d خشتە، %3$d ڕیز</string>
+    <string name="json_nothing">نەتوانرا هیچ خشتەیەک لەم فایلی JSON دروست بکرێت</string>
+    <string name="json_invalid">فایلی JSON دروست نییە: %1$s</string>
+    <string name="json_too_big">فایلەکە زۆر گەورەیە بۆ هاوردەکردن</string>
+    <string name="json_imported">%1$d خشتە، %2$d ڕیز هاوردە کرا: %3$s</string>
+
+    <string name="tab_structure">پێکهاتە</string>
+    <string name="tab_data">داتا</string>
+    <string name="tab_sql">SQL</string>
+    <string name="btn_new_table">خشتەی نوێ</string>
+    <string name="btn_alter_table">دەستکاریکردنی خشتە</string>
+    <string name="btn_indexes">ئیندێکسەکان</string>
+    <string name="btn_drop_table">سڕینەوەی خشتە</string>
+    <string name="search_hint">بەهای گەڕان / فلتەر</string>
+    <string name="go">بگەڕێ</string>
+    <string name="btn_add_row">+ ڕیز</string>
+    <string name="prev_arrow">▶</string>
+    <string name="next_arrow">◀</string>
+    <string name="btn_run_sql">▶ جێبەجێکردنی SQL</string>
+    <string-array name="filter_ops">
+        <item>لەخۆدەگرێت</item>
+        <item>یەکسانە بە</item>
+        <item>دەستپێدەکات بە</item>
+        <item>کۆتایی دێت بە</item>
+        <item>&gt;</item>
+        <item>&lt;</item>
+        <item>بەتاڵە (NULL)</item>
+        <item>بەتاڵ نییە</item>
+    </string-array>
+    <string name="all_columns">هەموو ستوونەکان</string>
+    <string name="no_tables">هیچ خشتەیەک نییە</string>
+    <string name="page_info">%1$d–%2$d لە %3$d</string>
+    <string name="suffix_filtered">(فلتەرکراو)</string>
+    <string name="suffix_readonly">(تەنها خوێندنەوە)</string>
+    <string name="schema_empty">بنکەی زانیاری بەتاڵە.\n\"خشتەی نوێ\" یان تابی SQL بەکاربهێنە.</string>
+    <string name="err_cannot_open">نەتوانرا بنکەی زانیاری بکرێتەوە: %1$s</string>
+    <string name="toast_no_table">هیچ خشتەیەک هەڵنەبژێردراوە</string>
+    <string name="read_only_msg">ئەم خشتە/ڤیوە تەنها خوێندنەوەیە</string>
+    <string name="sql_status">%1$d فەرمان لە %2$d میلی چرکەدا جێبەجێکرا</string>
+    <string name="sql_rows">%1$d ڕیز</string>
+    <string name="sql_limited">(سنووردار بە %1$d)</string>
+    <string name="row_title">ڕیزی %1$d</string>
+    <string name="edit_row_title">دەستکاریکردنی ڕیز (rowid %1$d)</string>
+    <string name="delete_row_title">ئەم ڕیزە بسڕدرێتەوە؟</string>
+    <string name="add_row_title">زیادکردنی ڕیز بۆ %1$s</string>
+    <string name="add_row_msg">خانە بەتاڵەکان نرخی بنەڕەتی ستوونەکە بەکاردەهێنن. NULL بنووسە بۆ نرخی NULL.</string>
+
+    <string name="csv_exported">%1$d ڕیز هەناردە کرا</string>
+    <string name="csv_empty">فایلی CSV بەتاڵە</string>
+    <string name="csv_title">هاوردەکردنی CSV بۆ خشتە</string>
+    <string name="csv_msg">%1$d دێڕ دۆزرایەوە.\nئەگەر خشتەکە هەبێت ڕیزەکان زیاد دەکرێن (ستوونەکان بە ناو یەکدەگرنەوە)، ئەگینا خشتەیەکی نوێ دروست دەکرێت. خانە بەتاڵەکان دەبنە NULL.</string>
+    <string name="csv_header">ڕیزی یەکەم سەرپەڕەیە (ناوی ستوونەکان)</string>
+    <string name="csv_imported">%1$d ڕیز هاوردە کرا بۆ %2$s</string>
+
+    <string name="hint_table_name">ناوی خشتە</string>
+    <string name="legend_pk">PK = کلیلی سەرەکی (INTEGER PK خۆکارانە زیاد دەبێت)، NN = بەتاڵ نەبێت</string>
+    <string name="btn_add_column_row">+ ستوون</string>
+    <string name="hint_column">ستوون</string>
+    <string name="use_sql">بەکارهێنانی SQL</string>
+    <string name="err_table_name">ناوی خشتە بنووسە</string>
+    <string name="err_no_columns">لانیکەم یەک ستوون زیاد بکە</string>
+    <string name="drop_which">کام خشتە بسڕدرێتەوە؟</string>
+    <string name="drop_title">%1$s بسڕدرێتەوە؟</string>
+    <string name="drop_msg">هەموو داتای ئەم خشتەیە لەدەست دەچێت.</string>
+    <string name="choose_table">خشتە هەڵبژێرە</string>
+    <string name="act_add_column">زیادکردنی ستوون</string>
+    <string name="act_rename_column">گۆڕینی ناوی ستوون</string>
+    <string name="act_drop_column">سڕینەوەی ستوون</string>
+    <string name="act_rename_table">گۆڕینی ناوی خشتە</string>
+    <string name="rename_which">ناوی کام ستوون بگۆڕدرێت؟</string>
+    <string name="new_name_for">ناوی نوێ بۆ %1$s</string>
+    <string name="drop_col_which">کام ستوون بسڕدرێتەوە؟</string>
+    <string name="drop_col_title">ستوونی %1$s بسڕدرێتەوە؟</string>
+    <string name="drop_col_msg">داتاکەی لەدەست دەچێت.</string>
+    <string name="new_table_name">ناوی خشتەی نوێ</string>
+    <string name="add_col_title">زیادکردنی ستوون بۆ %1$s</string>
+    <string name="hint_col_name">ناوی ستوون</string>
+    <string name="hint_default">نرخی بنەڕەتی (ئارەزوومەندانە)</string>
+    <string name="new_index">ئیندێکسی نوێ</string>
+    <string name="no_indexes">هێشتا هیچ ئیندێکسێک نییە.</string>
+    <string name="drop_index">سڕینەوەی ئیندێکس</string>
+    <string name="hint_index_cols">ستوونەکان بە فاریزە جیا بکەرەوە (وەک name, age)</string>
+    <string name="hint_index_name">ناوی ئیندێکس (ئارەزوومەندانە)</string>
+    <string name="err_index_cols">لانیکەم یەک ستوون بنووسە</string>
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+    <style name="Widget.App.TabLayout" parent="Widget.Material3.TabLayout">
+        <item name="android:background">@color/tab_bg</item>
+        <item name="tabTextColor">@color/tab_unselected</item>
+        <item name="tabSelectedTextColor">@color/tab_selected</item>
+        <item name="tabIndicatorColor">@color/tab_indicator</item>
+    </style>
+</resources>

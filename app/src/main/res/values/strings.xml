@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_title">SQLite Browser</string>
+
+    <!-- menus / bottom sheet -->
+    <string name="menu">Menu</string>
+    <string name="menu_theme_item">Light / Dark</string>
+    <string name="menu_language">Language</string>
+    <string name="menu_review">Review</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_telegram">Our Telegram</string>
+    <string name="share_text">Try SQLite Browser!</string>
+    <string name="share_chooser">Share app</string>
+    <string name="menu_export_csv">Export table to CSV</string>
+    <string name="menu_import_csv">Import CSV</string>
+    <string name="menu_import_json">Import JSON into this database</string>
+    <string name="menu_export_db">Export database .db</string>
+    <string name="menu_theme">Theme (light / dark)</string>
+    <string name="theme_title">Theme</string>
+    <string name="theme_system">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <!-- common -->
+    <string name="cancel">Cancel</string>
+    <string name="create">Create</string>
+    <string name="delete">Delete</string>
+    <string name="open">Open</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="close">Close</string>
+    <string name="save">Save</string>
+    <string name="insert">Insert</string>
+    <string name="add">Add</string>
+    <string name="toast_done">Done</string>
+    <string name="err_generic">Error: %1$s</string>
+
+    <!-- main screen -->
+    <string name="empty_list">No databases yet.\nCreate a new one or import an existing file.</string>
+    <string name="new_database">New database</string>
+    <string name="import_label">Import</string>
+    <string name="file_export">Export (save a copy)</string>
+    <string name="delete_db_title">Delete database?</string>
+    <string name="delete_db_msg">%1$s will be permanently deleted.</string>
+    <string name="new_db_name_hint">Database name, e.g. my_database</string>
+    <string name="new_db_sql_hint">Optional SQL (create tables, insert data):</string>
+    <string name="err_enter_name">Enter a name</string>
+    <string name="err_file_exists">File already exists</string>
+    <string name="err_sql">SQL error: %1$s</string>
+    <string name="imported_file">Imported %1$s</string>
+    <string name="import_failed">Import failed: %1$s</string>
+    <string name="exported">Exported</string>
+    <string name="export_failed">Export failed: %1$s</string>
+    <string name="import_opt_db">Database file (.db / .sqlite)</string>
+    <string name="import_opt_json">JSON file to new database</string>
+
+    <!-- JSON -->
+    <string name="json_title">Convert JSON to database</string>
+    <string name="json_msg">Each array of objects becomes a table. Nested objects become extra columns.</string>
+    <string name="json_convert">Convert</string>
+    <string name="json_done_new">Created %1$s: %2$d table(s), %3$d row(s)</string>
+    <string name="json_nothing">No tables could be created from this JSON file</string>
+    <string name="json_invalid">Invalid JSON file: %1$s</string>
+    <string name="json_too_big">File is too large to import</string>
+    <string name="json_imported">Imported %1$d table(s), %2$d row(s): %3$s</string>
+
+    <!-- database screen -->
+    <string name="tab_structure">Structure</string>
+    <string name="tab_data">Data</string>
+    <string name="tab_sql">SQL</string>
+    <string name="btn_new_table">New table</string>
+    <string name="btn_alter_table">Alter table</string>
+    <string name="btn_indexes">Indexes</string>
+    <string name="btn_drop_table">Drop table</string>
+    <string name="search_hint">Search / filter value</string>
+    <string name="go">Go</string>
+    <string name="btn_add_row">+ Row</string>
+    <string name="prev_arrow">◀</string>
+    <string name="next_arrow">▶</string>
+    <string name="sql_hint" translatable="false">SELECT * FROM table_name;</string>
+    <string name="btn_run_sql">▶ Run SQL</string>
+    <string-array name="filter_ops">
+        <item>contains</item>
+        <item>equals</item>
+        <item>starts with</item>
+        <item>ends with</item>
+        <item>&gt;</item>
+        <item>&lt;</item>
+        <item>is NULL</item>
+        <item>is not NULL</item>
+    </string-array>
+    <string name="all_columns">All columns</string>
+    <string name="no_tables">No tables</string>
+    <string name="page_info">%1$d–%2$d of %3$d</string>
+    <string name="suffix_filtered">(filtered)</string>
+    <string name="suffix_readonly">(read-only)</string>
+    <string name="schema_empty">Database is empty.\nUse \"New table\" or the SQL tab.</string>
+    <string name="err_cannot_open">Cannot open database: %1$s</string>
+    <string name="toast_no_table">No table selected</string>
+    <string name="read_only_msg">This table/view is read-only</string>
+    <string name="sql_status">%1$d statement(s) executed in %2$d ms</string>
+    <string name="sql_rows">%1$d row(s)</string>
+    <string name="sql_limited">(limited to %1$d)</string>
+    <string name="row_title">Row %1$d</string>
+    <string name="edit_row_title">Edit row (rowid %1$d)</string>
+    <string name="delete_row_title">Delete this row?</string>
+    <string name="add_row_title">Add row to %1$s</string>
+    <string name="add_row_msg">Empty fields use the column default. Type NULL for a NULL value.</string>
+
+    <!-- CSV -->
+    <string name="csv_exported">Exported %1$d rows</string>
+    <string name="csv_empty">The CSV file is empty</string>
+    <string name="csv_title">Import CSV into table</string>
+    <string name="csv_msg">%1$d lines found.\nIf the table exists, rows are added (columns are matched by name). Otherwise a new table is created. Empty cells become NULL.</string>
+    <string name="csv_header">First row is the header (column names)</string>
+    <string name="csv_imported">Imported %1$d rows into %2$s</string>
+
+    <!-- structure -->
+    <string name="hint_table_name">Table name</string>
+    <string name="legend_pk">PK = primary key (INTEGER PK auto-increments), NN = NOT NULL</string>
+    <string name="btn_add_column_row">+ Column</string>
+    <string name="hint_column">column</string>
+    <string name="use_sql">Use SQL</string>
+    <string name="err_table_name">Enter a table name</string>
+    <string name="err_no_columns">Add at least one column</string>
+    <string name="drop_which">Drop which table?</string>
+    <string name="drop_title">Drop %1$s?</string>
+    <string name="drop_msg">All data in this table will be lost.</string>
+    <string name="choose_table">Choose table</string>
+    <string name="act_add_column">Add column</string>
+    <string name="act_rename_column">Rename column</string>
+    <string name="act_drop_column">Drop column</string>
+    <string name="act_rename_table">Rename table</string>
+    <string name="rename_which">Rename which column?</string>
+    <string name="new_name_for">New name for %1$s</string>
+    <string name="drop_col_which">Drop which column?</string>
+    <string name="drop_col_title">Drop column %1$s?</string>
+    <string name="drop_col_msg">Its data will be lost.</string>
+    <string name="new_table_name">New table name</string>
+    <string name="add_col_title">Add column to %1$s</string>
+    <string name="hint_col_name">Column name</string>
+    <string name="hint_default">Default value (optional)</string>
+    <string name="new_index">New index</string>
+    <string name="no_indexes">No indexes yet.</string>
+    <string name="drop_index">Drop index</string>
+    <string name="hint_index_cols">Columns, comma separated (e.g. name, age)</string>
+    <string name="hint_index_name">Index name (optional)</string>
+    <string name="err_index_cols">Enter at least one column</string>
+</resources>

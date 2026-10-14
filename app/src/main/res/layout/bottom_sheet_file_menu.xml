@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="?attr/colorSurface">
+
+    <View
+        android:layout_width="36dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bg_sheet_handle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_title"
+        android:textSize="18sp"
+        android:fontFamily="@font/charis_sil_bold"
+        android:textColor="?attr/colorOnSurface"
+        android:layout_marginBottom="12dp" />
+
+    <LinearLayout
+        android:id="@+id/actionTheme"
+        style="@style/MenuBottomSheetItem">
+
+        <ImageView
+            style="@style/MenuBottomSheetIcon"
+            android:src="@drawable/eclipse"
+            android:contentDescription="@string/theme_title" />
+
+        <TextView
+            style="@style/MenuBottomSheetText"
+            android:text="@string/menu_theme_item" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/actionLanguage"
+        style="@style/MenuBottomSheetItem">
+
+        <ImageView
+            style="@style/MenuBottomSheetIcon"
+            android:src="@drawable/ic_language"
+            android:contentDescription="@string/menu_language" />
+
+        <TextView
+            style="@style/MenuBottomSheetText"
+            android:text="@string/menu_language" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/actionReview"
+        style="@style/MenuBottomSheetItem">
+
+        <ImageView
+            style="@style/MenuBottomSheetIcon"
+            android:src="@drawable/star"
+            android:contentDescription="@string/menu_review" />
+
+        <TextView
+            style="@style/MenuBottomSheetText"
+            android:text="@string/menu_review" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/actionShare"
+        style="@style/MenuBottomSheetItem">
+
+        <ImageView
+            style="@style/MenuBottomSheetIcon"
+            android:src="@drawable/share"
+            android:contentDescription="@string/menu_share" />
+
+        <TextView
+            style="@style/MenuBottomSheetText"
+            android:text="@string/menu_share" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/actionTelegram"
+        style="@style/MenuBottomSheetItem">
+
+        <ImageView
+            style="@style/MenuBottomSheetIcon"
+            android:src="@drawable/telegram"
+            android:contentDescription="@string/menu_telegram" />
+
+        <TextView
+            style="@style/MenuBottomSheetText"
+            android:text="@string/menu_telegram" />
+    </LinearLayout>
+
+</LinearLayout>

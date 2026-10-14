@@ -1,0 +1,104 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.SqliteBrowser" parent="Theme.Material3.DayNight"
+        >
+        <item name="colorPrimary">@color/light_primary</item>
+        <item name="colorOnPrimary">@color/light_on_primary</item>
+        <item name="colorPrimaryContainer">@color/light_primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/light_on_primary_container</item>
+        <item name="colorSecondary">@color/light_secondary</item>
+        <item name="colorOnSecondary">@color/light_on_secondary</item>
+        <item name="colorSecondaryContainer">@color/light_secondary_container</item>
+        <item name="colorOnSecondaryContainer">@color/light_on_secondary_container</item>
+        <item name="android:colorBackground">@color/light_background</item>
+        <item name="colorOnBackground">@color/light_on_background</item>
+        <item name="colorSurface">@color/light_surface</item>
+        <item name="colorOnSurface">@color/light_on_surface</item>
+        <item name="colorOutline">@color/light_outline</item>
+        <item name="actionBarStyle">@style/Widget.App.ActionBar</item>
+        <item name="homeAsUpIndicator">@drawable/ic_back</item>
+        <item name="actionOverflowButtonStyle">@style/Widget.App.Overflow</item>
+        <item name="colorSurfaceContainerHigh">@color/dialog_bg</item>
+        <item name="colorSurfaceContainer">@color/popup_bg</item>
+        <item name="tabStyle">@style/Widget.App.TabLayout</item>
+        <item name="toastBackgroundColor">@color/light_on_primary</item>
+        <item name="toastTextColor">@color/light_primary</item>
+
+        <!-- separate button colors -->
+        <item name="materialButtonStyle">@style/Widget.App.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.App.Button.Outlined</item>
+
+        <!-- Dialog title and body text appearance -->
+        <item name="materialAlertDialogTitleTextStyle">
+            @style/SqliteBrowser.Dialog.Title
+        </item>
+
+        <item name="materialAlertDialogBodyTextStyle">
+            @style/SqliteBrowser.Dialog.Body
+        </item>
+
+    </style>
+
+    <style name="SqliteBrowser.Dialog.Title"
+        parent="MaterialAlertDialog.Material3.Title.Text">
+        <item name="android:fontFamily">@font/charis_sil_bold</item>
+        <item name="android:textColor">@color/light_dialog_text</item>
+        <item name="fontFamily">@font/charis_sil_bold</item>
+    </style>
+
+    <style name="SqliteBrowser.Dialog.Body"
+        parent="MaterialAlertDialog.Material3.Body.Text">
+        <item name="android:fontFamily">@font/charis_sil_regular</item>
+        <item name="android:textColor">@color/light_dialog_text</item>
+        <item name="fontFamily">@font/charis_sil_regular</item>
+    </style>
+
+    <style name="Theme.SqliteBrowser" parent="Base.Theme.SqliteBrowser" />
+
+    <style name="Widget.App.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/light_button_fill</item>
+        <item name="android:textColor">@color/light_button_on_fill</item>
+    </style>
+
+    <style name="Widget.App.Button.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/light_button_stroke</item>
+        <item name="android:textColor">@color/light_button_text</item>
+    </style>
+
+
+
+    <style name="Theme.SqliteBrowser.Popup"
+        parent="ThemeOverlay.Material3">
+        <item name="android:fontFamily">@font/charis_sil_bold</item>
+        <item name="android:textColor">@color/light_dialog_text</item>
+        <item name="colorSurface">@color/light_popup_bg</item>
+        <item name="colorOnSurface">@color/light_dialog_text</item>
+    </style>
+
+    ```xml
+    <style name="MenuBottomSheetItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">54dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+    <style name="MenuBottomSheetIcon">
+        <item name="android:layout_width">24dp</item>
+        <item name="android:layout_height">24dp</item>
+        <item name="android:tint">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="MenuBottomSheetText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+        <item name="android:fontFamily">@font/charis_sil_regular</item>
+    </style>
+
+
+</resources>
